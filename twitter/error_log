@@ -1,0 +1,11 @@
+[02-Dec-2015 05:56:26 UTC] PHP Notice:  Undefined property: stdClass::$oauth_token in /home/dapps/public_html/phirehose/twitter/index.php on line 16
+[02-Dec-2015 05:56:26 UTC] PHP Notice:  Undefined property: stdClass::$oauth_token_secret in /home/dapps/public_html/phirehose/twitter/index.php on line 16
+[02-Dec-2015 05:56:26 UTC] PHP Notice:  Undefined property: stdClass::$oauth_token in /home/dapps/public_html/phirehose/twitter/index.php on line 17
+[02-Dec-2015 05:56:26 UTC] PHP Notice:  Undefined property: stdClass::$oauth_token_secret in /home/dapps/public_html/phirehose/twitter/index.php on line 18
+[02-Dec-2015 05:56:26 UTC] PHP Fatal error:  Uncaught exception 'Exception' with message 'To get the authorize URL, the OAuth token must be set.' in /home/dapps/public_html/phirehose/twitter/src/codebird.php:329
+Stack trace:
+#0 /home/dapps/public_html/phirehose/twitter/index.php(22): Codebird\Codebird->oauth_authorize()
+#1 {main}
+  thrown in /home/dapps/public_html/phirehose/twitter/src/codebird.php on line 329
+[02-Dec-2015 06:09:19 UTC] PHP Warning:  mysql_query(): Access denied for user 'dapps'@'localhost' (using password: NO) in /home/dapps/public_html/phirehose/twitter/index.php on line 83
+[02-Dec-2015 06:09:19 UTC] PHP Warning:  mysql_query(): A link to the server could not be established in /home/dapps/public_html/phirehose/twitter/index.php on line 83

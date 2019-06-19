@@ -1,0 +1,2 @@
+[02-Dec-2015 05:52:18 UTC] PHP Warning:  include(link-head.php): failed to open stream: No such file or directory in /home/dapps/public_html/phirehose/index.php on line 14
+[02-Dec-2015 05:52:18 UTC] PHP Warning:  include(): Failed opening 'link-head.php' for inclusion (include_path='.:/usr/lib/php:/usr/local/lib/php') in /home/dapps/public_html/phirehose/index.php on line 14
